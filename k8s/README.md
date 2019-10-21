@@ -11,7 +11,7 @@ Kubectl installed and configured on control machine<br/>
 kubectl apply -f ./
 </pre>
 <br/>
-#enabling active directory<br/>
+# enabling active directory<br/>
 <pre>
 gitlab_rails['ldap_enabled'] = true
 gitlab_rails['ldap_servers'] = {
